@@ -11,18 +11,20 @@ function Navbar() {
     </li>
   ));
   return (
-    <nav className="navbar">
-      <a href="#" className="logo">
-        <FaApple className="navLogo" />
-      </a>
-      <ul className="nav__list">
-        {navLinks}
-        <div className="icons">
-          <IoIosSearch className="search icon" />
-          <MdOutlineShoppingBag className="lock icon" />
-        </div>
-      </ul>
-    </nav>
+    <div className="container">
+      <nav className="navbar">
+        <a href="#" className="logo">
+          <FaApple className="navLogo" />
+        </a>
+        <ul className="nav__list">
+          {navLinks}
+          <div className="icons">
+            <IoIosSearch className="search icon" />
+            <MdOutlineShoppingBag className="lock icon" />
+          </div>
+        </ul>
+      </nav>
+    </div>
   );
 }
 

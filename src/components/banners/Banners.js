@@ -32,7 +32,11 @@ function Banners() {
       </div>
     </div>
   ));
-  return <div className="banners">{banner}</div>;
+  return (
+    <div className="container">
+      <div className="banners">{banner}</div>
+    </div>
+  );
 }
 
 export default Banners;

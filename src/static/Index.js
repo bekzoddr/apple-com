@@ -60,19 +60,19 @@ export const BANNER = [
 
 export const HEROS = [
   {
-    id: 3,
+    id: 1,
     logoImg: [heroLogo],
     describtion: "Welcome to the era of spatial computing",
     bg: [bgImg3],
   },
   {
-    id: 1,
+    id: 2,
     title: "Iphone 15 Pro  ",
     describtion: "Titanium. So strong. So light. So Pro",
     bg: [bgImg1],
   },
   {
-    id: 2,
+    id: 3,
     title: "IPhone 15",
     describtion: "New camera. New design. Newphoria.",
     bg: [bgImg2],
