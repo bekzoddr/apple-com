@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.901);
+    padding: 20px 180px;
+    position: fixed;
+    z-index: 111;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.icon:hover{
+    color: white;
+}
+.navLogo, .search, .lock{
+    color: gray;
+    font-size: 25px;
+    transition: 0.5s all ease-out;
+}
+.navLogo:hover{
+    color: white;
+    transition: 0.5s;
+}
+.nav__item a:hover{
+    color: white;
+    transition: 0.5s all ease-out;
+    font-size: 16.1px;
+}
+.nav__list{
+    display: flex;
+    gap: 40px;
+}
+.nav__item a{
+    font-size: 16px;
+    font-weight:100;
+    color: rgba(240, 248, 255, 0.788);
+    transition: 0.5s all ease-out;
+}

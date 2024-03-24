@@ -1,0 +1,55 @@
+.note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h6, .footer__link {
+    color: black;
+    opacity: 0.5;
+    font-size: 12px;
+    transition: 0.5s;
+}
+footer{
+    padding: 20px 250px ;
+    background-color: rgb(245, 245, 247);
+}
+hr{
+    height: 2px;
+    color: black;
+    margin-top: 15px;
+}
+.wrappers{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__link{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.footer__link:hover{
+    opacity: 1;
+    text-decoration: underline;
+    transition: 0.5s ;
+}
+ul h4{
+    margin: 15px 0;
+    color: black;
+    opacity: 0.8;
+    font-size: 12px;
+}
+.footer__info{
+    padding-top: 30px;
+    font-size: 15px;
+    color: black;
+}
+.a{
+    color: blue;
+    text-decoration: underline;
+}
+span{
+    margin-left: 40px;
+}
+.span{
+    margin-left: 330px;
+}

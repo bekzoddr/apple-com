@@ -1,0 +1,27 @@
+.plakat{
+    background-position: center;
+    background-size: cover;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    padding: 200px;
+    margin: 15px;
+
+}
+.banners{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.info{
+    position: relative;
+    bottom: 150px;
+}
+img{
+    margin-left: 100px;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.links{
+    padding-bottom: 50px;
+}
